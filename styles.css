@@ -1,0 +1,102 @@
+header {
+    color: red;
+}
+
+.centered
+{
+    text-align: center;
+}
+
+.large
+{
+    font-size: large;
+}
+
+.medium
+{
+    font-size: medium;
+}
+
+.small
+{
+    font-size: small;
+}
+
+* {
+    background-color: #181818;
+    color: white;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+  }
+
+li {
+    display: inline;
+    padding: 20px;
+  }
+
+.img_main {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.model_header {
+    text-align: center;
+    color: red;
+    font-size: 3vw;
+}
+
+.img_model {
+    max-width: 350px;
+    height: 350px
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.model_text_aline {
+    position: absolute;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 20px;
+}
+
+
+* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: light blue;  /* #f2f2f2 */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.gal_vid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  object-fit: contain;
+}
+
